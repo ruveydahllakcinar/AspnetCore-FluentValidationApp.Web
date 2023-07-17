@@ -8,5 +8,6 @@
 
         public string? Mail { get; set; }
         public int Age { get; set; }
+        public DateTime? BirthDay { get; set; }
     }
 }
