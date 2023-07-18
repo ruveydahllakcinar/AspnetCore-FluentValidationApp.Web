@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using FluentValidationApp.Web.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace FluentValidationApp.Web.Models
 {
@@ -10,5 +11,6 @@ namespace FluentValidationApp.Web.Models
         }
 
         public DbSet<Customer> Customers { get; set; }
+        public DbSet<Address> Addresses { get; set; }
     }
 }
