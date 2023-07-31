@@ -1,3 +1,4 @@
+![automapper](fluentvalidation.png)
 # Fluent Validation
 * Fluent Validation is a validation library for .NET projects. This library is used for validation of input data and easy definition of validation rules. Fluent Validation can be easily integrated and used with ASP.NET MVC, Web API or any .NET application.
 
